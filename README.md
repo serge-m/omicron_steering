@@ -35,10 +35,10 @@ For more information:
 
 In order to start the node, use the following commands
 ```
-git clone git@github.com:project-omicron/controller_steering.git
-cd ./controller_steering/
-sudo pip3 install -r requirements.txt
-roslaunch launch/steering.launch
+git clone git@github.com:project-omicron/steering.git
+cd ./steering/
+roslaunch launch/config.launch
+roslaunch launch/run.launch
 ```
 
 ### Limitations
