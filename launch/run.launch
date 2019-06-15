@@ -1,0 +1,3 @@
+<launch>
+	<node name="steering" pkg="steering" type="run_steering.py" output="screen" />
+</launch>
